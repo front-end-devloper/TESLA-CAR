@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mostafa Yasser" />
+    <meta
+      name="description"
+      content="An Electric Vehicle (EV) is a modern vehicle design that mainly or fully runs on electricity. Its movement is enabled by one or more electric motors which are powered with energy that is stored in high-voltage rechargeable battery packs."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Explore most valuable tesla's electric cars" />
+    <meta name="keywords" content="Electric Cars, EV, Tesla" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="/TESLA-CAR/assets/logo-BxgY1T4m.png" />
+    <link rel="stylesheet" href="/shoelace/dist/themes/light.css" />
+    <title>TESLA — Electric Vehicles</title>
+    <script type="module" crossorigin src="/TESLA-CAR/assets/index-BsOL0-Ay.js"></script>
+    <link rel="stylesheet" crossorigin href="/TESLA-CAR/assets/index-B7rgY682.css">
+  </head>
+
+  <body>
+    <!-- Welcome Overlay -->
+    <div id="welcomeOverlay" class="welcome-overlay" aria-hidden="true">
+      <div class="welcome-card">
+        <p class="welcome-label">Developer</p>
+        <h1>Mostafa Yasser</h1>
+        <p>Welcome to the Tesla experience.</p>
+      </div>
+    </div>
+
+    <!-- Nav Preview Overlay -->
+    <div id="navPreview" class="nav-preview" aria-hidden="true">
+      <div class="navPreview-title">
+        <h1>Vehicles</h1>
+      </div>
+      <div class="navPreview-container">
+        
+      </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor cursor-dot" aria-hidden="true"></div>
+    <div class="cursor cursor-ring" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="/TESLA-CAR/assets/tesla_black_brand-VmXWw0_Y.png" alt="Tesla" class="tesla-logo" id="logo-image" />
+        </a>
+      </div>
+
+      <nav id="myNav" aria-label="Primary">
+        <ul>
+          <li
+            class="nav-pill"
+            data-preview-image-1="src/assets/cybertruck.jpeg"
+            data-preview-image-2="src/assets/Model%20y%20l%20premium.avif"
+            data-preview-image-3="src/assets/Model%20Y.avif"
+            data-preview-title="Vehicles"
+            data-preview-copy="Explore the electric lineup shaping the future of driving."
+          >
+            Vehicles
+          </li>
+          <li
+            class="nav-pill"
+            data-preview-image-1="src/assets/Powerwall.avif"
+            data-preview-image-2="src/assets/solar%20roof.avif"
+            data-preview-image-3="src/assets/Powerwall.avif"
+            data-preview-title="Energy"
+            data-preview-copy="Power your home and life with intelligent renewable solutions."
+          >
+            Energy
+          </li>
+          <li
+            class="nav-pill"
+            data-preview-image-1="src/assets/Cypbercap.jpeg"
+            data-preview-image-2="src/assets/tesla_black.jpeg"
+            data-preview-image-3="src/assets/tesla%20garage.avif"
+            data-preview-title="Discover"
+            data-preview-copy="See how Tesla innovation creates a smarter everyday experience."
+          >
+            Discover
+          </li>
+          <li
+            class="nav-pill"
+            data-preview-image-1="src/assets/Apparel.avif"
+            data-preview-image-2="src/assets/Powerwall.avif"
+            data-preview-image-3="src/assets/Apparel.avif"
+            data-preview-title="Shop"
+            data-preview-copy="Choose accessories, apparel, and products built for the Tesla lifestyle."
+          >
+            Shop
+          </li>
+        </ul>
+      </nav>
+
+     
+
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+          <span class="theme-toggle__icon">☀️</span>
+          <span class="theme-toggle__label">Light</span>
+        </button>
+        <div class="header-icons">
+          <sl-icon library="lucide" name="help-circle" title="Support"></sl-icon>
+          <sl-icon library="lucide" name="globe" title="Region & Language"></sl-icon>
+          <sl-icon library="lucide" name="user" title="Profile"></sl-icon>
+        </div>
+
+         <button
+        id="mobileNavToggle"
+        class="mobile-nav-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <sl-icon name="menu" library="lucide" label="Open menu"></sl-icon>
+      </button>
+      </div>
+    </header>
+
+    <!-- Hero Carousel -->
+    <section class="hero-section" aria-label="Featured vehicles">
+      <sl-carousel class="s1_carousel_container" autoplay loop>
+        <!-- Slide 1 -->
+        <sl-carousel-item>
+          <div class="carousel_photo">
+            <img
+              alt="Dark blue Tesla Model Y Premium with three rows and six seats"
+              src="/TESLA-CAR/assets/tesla_black-DKfryH3k.jpeg"
+            />
+          </div>
+          <div class="carousel_content">
+            <h2>Introducing Model-Y Premium</h2>
+            <p>Three Rows, Six Seats</p>
+           <div class="btn-group">
+  <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">
+    Order Now
+  </sl-button>
+
+  <sl-button href="https://example.com/" target="_blank" class="xbtn">
+    Learn More
+  </sl-button>
+</div>
+          </div>
+        </sl-carousel-item>
+
+        <!-- Slide 2 -->
+        <sl-carousel-item>
+          <div class="carousel_photo">
+            <img
+              alt="Tesla Cybertruck with futuristic geometric design and rear-wheel steering"
+              src="/TESLA-CAR/assets/cybertruck-C8PKb3aA.jpeg"
+            />
+          </div>
+          <div class="carousel_content">
+            <h2>Introducing Cybertruck</h2>
+            <p>Two Rows, Five Seats</p>
+            <div class="btn-group">
+              <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">Order Now</sl-button>
+              <sl-button href="https://example.com/" target="_blank" class="xbtn">Learn More</sl-button>
+            </div>
+          </div>
+        </sl-carousel-item>
+
+        <!-- Slide 3 -->
+        <sl-carousel-item>
+          <div class="carousel_photo">
+            <img
+              alt="Vibrant red Tesla Cybercab Premium with dynamic depth paint"
+              src="/TESLA-CAR/assets/Cypbercap--hnohpZU.jpeg"
+            />
+          </div>
+          <div class="carousel_content">
+            <h2>Introducing Cybercab Premium</h2>
+            <p>Two Rows, Four Seats</p>
+            <div class="btn-group">
+              <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">Order Now</sl-button>
+              <sl-button href="https://example.com/"  target="_blank" class="xbtn">Learn More</sl-button>
+            </div>
+          </div>
+        </sl-carousel-item>
+      </sl-carousel>
+    </section>
+
+    <!-- Find Your Tesla -->
+    <section id="find_your_tesla" class="section-padding">
+      <h2 class="section-title">Find Your Tesla</h2>
+      <hr class="section-divider" />
+      <div class="container grid-3">
+        <article class="container_fyt">
+          <span class="fyt-icon"><sl-icon library="lucide" name="globe"></sl-icon></span>
+          <p>Request a Test Drive</p>
+          <a href="#Find_Out_more.html" class="fyt-link">Find out more</a>
+        </article>
+
+        <article class="container_fyt">
+          <span class="fyt-icon"><sl-icon library="lucide" name="dollar-sign"></sl-icon></span>
+          <p>Contact a Dealer</p>
+          <a href="#Find_Out_more.html" class="fyt-link">Request Now</a>
+        </article>
+
+        <article class="container_fyt">
+          <span class="fyt-icon"><sl-icon library="lucide" name="pocket"></sl-icon></span>
+          <p>Request an Offer</p>
+          <a href="#Find_Out_more.html" class="fyt-link">Request Now</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Full Self-Driving -->
+    <section id="tesla_full_driving" class="section-padding">
+      <div class="tfd_Container">
+        <div class="container_tfd_left_content">
+          <h2>Full Self-Driving<br />(Supervised)</h2>
+          <p class="tfd-subtitle">Makes every drive easier. Subscribe for $99/mo.</p>
+          <div class="sub_container_tfd_left_content">
+            <div class="tesla_stat">
+              <h4>7×</h4>
+              <p>Fewer Collisions</p>
+            </div>
+            <div class="tesla_stat">
+              <h4>13B+</h4>
+              <p>Miles Driven</p>
+            </div>
+          </div>
+          <div class="btn-group btn-group--left">
+            <sl-button variant="primary" href="https://example.com/" target="_blank">Order Now</sl-button>
+            <sl-button href="https://example.com/" target="_blank">Schedule Demo</sl-button>
+          </div>
+        </div>
+
+        <div class="container_tfd_right_video">
+          <video autoplay muted loop playsinline>
+            <source src="/TESLA-CAR/assets/tesla_preview-DbHzi7oU.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers Carousel -->
+    <section id="offers_tesla_models" aria-label="Vehicle offers">
+      <sl-carousel pagination navigation loop>
+        <!-- Offer 1 -->
+        <sl-carousel-item>
+          <img
+            alt="Tesla Model Y L Premium long wheelbase midsize SUV"
+            src="/TESLA-CAR/assets/Model%20y%20l%20premium-CEJ0cSKR.avif"
+            loading="lazy"
+          />
+          <div class="carousel_offers_content_up">
+            <p>Long Wheelbase Midsize SUV</p>
+          </div>
+          <div class="carousel_offers_content_down">
+            <h3>Model Y L Premium</h3>
+            <p>Starting at $61,990</p>
+            <div class="btn-group">
+              <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">Order Now</sl-button>
+              <sl-button href="https://example.com/" target="_blank" class="xbtn">Learn More</sl-button>
+            </div>
+          </div>
+        </sl-carousel-item>
+
+        <!-- Offer 2 -->
+        <sl-carousel-item>
+          <img
+            alt="White Tesla Model 3 sport sedan"
+            src="/TESLA-CAR/assets/tesla_white-YhLvebyY.avif"
+            loading="lazy"
+          />
+          <div class="carousel_offers_content_up">
+            <p>Sport Sedan</p>
+          </div>
+          <div class="carousel_offers_content_down">
+            <h3>Model 3</h3>
+            <div class="btn-group">
+              <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">Order Now</sl-button>
+              <sl-button href="https://example.com/" target="_blank" class="xbtn">Learn More</sl-button>
+            </div>
+          </div>
+        </sl-carousel-item>
+
+        <!-- Offer 3 -->
+        <sl-carousel-item>
+          <img
+            alt="Tesla Model Y midsize SUV"
+            src="/TESLA-CAR/assets/Model%20Y-DL2cbewp.avif"
+            loading="lazy"
+          />
+          <div class="carousel_offers_content_up">
+            <p>Midsize SUV</p>
+          </div>
+          <div class="carousel_offers_content_down">
+            <h3>Model Y</h3>
+            <p>Lease from $459/mo</p>
+            <div class="btn-group">
+              <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">Order Now</sl-button>
+              <sl-button href="https://example.com/" target="_blank" class="xbtn">Learn More</sl-button>
+            </div>
+          </div>
+        </sl-carousel-item>
+
+        <!-- Offer 4 -->
+        <sl-carousel-item>
+          <img
+            alt="Tesla Cybertruck utility truck"
+            src="/TESLA-CAR/assets/Cybertruck-dGlh8iqq.avif"
+            loading="lazy"
+          />
+          <div class="carousel_offers_content_up">
+            <p>Utility Truck</p>
+          </div>
+          <div class="carousel_offers_content_down">
+            <h3>Cybertruck</h3>
+            <p>Lease from $499/mo</p>
+            <div class="btn-group">
+              <sl-button variant="primary" href="https://example.com/" target="_blank" class="xbtn">Order Now</sl-button>
+              <sl-button href="https://example.com/" target="_blank" class="xbtn">Learn More</sl-button>
+            </div>
+          </div>
+        </sl-carousel-item>
+      </sl-carousel>
+    </section>
+
+    <!-- Inventory -->
+    <section id="inventory" class="section-padding">
+      <div class="inventory-container">
+        <article class="inventory-card inventory-card--left">
+          <div class="inventory-card__content">
+            <h3>Current Offers</h3>
+            <p>Explore limited-time offers on Tesla vehicles</p>
+            <sl-button href="https://example.com/" target="_blank">Learn More</sl-button>
+          </div>
+          <div class="inventory-card__media">
+            <img
+              src="/TESLA-CAR/assets/Homepage-Grid-Current-Offers-All-Devices-zGRl6WXJ.avif"
+              alt="Current Tesla offers"
+              loading="lazy"
+            />
+          </div>
+        </article>
+
+        <article class="inventory-card inventory-card--right">
+          <div class="inventory-card__content">
+            <h3>Inventory</h3>
+            <p>Find nearby vehicles</p>
+            <div class="btn-group btn-group--compact">
+              <sl-button href="https://example.com/" target="_blank">New</sl-button>
+              <sl-button href="https://example.com/" target="_blank">Pre-Owned</sl-button>
+            </div>
+          </div>
+          <div class="inventory-card__media">
+            <img
+              src="/TESLA-CAR/assets/tesla%20garage-Dtz8udBq.avif"
+              alt="Tesla in garage"
+              loading="lazy"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <h4>Explore</h4>
+          <a href="#">Pre-Owned</a>
+          <a href="#">Find a Dealer</a>
+          <a href="#">Privacy</a>
+          <a href="#">Language</a>
+        </div>
+        <div>
+          <h4>Policies</h4>
+          <a href="#">Cookies</a>
+          <a href="#">EU Tyre Labels</a>
+          <a href="#">Careers</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div>
+          <h4>Press</h4>
+          <a href="#">Press Club</a>
+          <a href="#">Battery Regulation</a>
+          <a href="#">Whispers</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="#">Legal</a>
+          <a href="#">FAQs</a>
+          <a href="#">Complaints</a>
+          <a href="#">Contact</a>
+        </div>
+      
+      </div>
+
+        <div class="footer-social">
+          <h4>Social</h4>
+          <div class="footer-social-icons">
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      <div class="footer-bottom">
+        <p>© 2026 Tesla. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
